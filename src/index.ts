@@ -28,13 +28,6 @@ class o10rPPSdk {
   }
 }
 
-
-declare global {
-  interface Window {
-    o10rPPSdk: typeof o10rPPSdk;
-  }
-}
-
-window.o10rPPSdk = o10rPPSdk;
+(window as any).o10rPPSdk = o10rPPSdk;
 
 export { o10rPPSdk };
