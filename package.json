@@ -15,7 +15,7 @@
     "url": "git+https://github.com/ruslanpetunin/o10r-pp-sdk"
   },
   "scripts": {
-    "build": "tsup src/index.ts --dts --sourcemap --minify --clean --out-dir dist --format esm,cjs,iife --global-name O10rPP"
+    "build": "tsup src/index.ts --dts --sourcemap --minify --clean --out-dir dist --format esm,cjs,iife"
   },
   "exports": {
     ".": {
