@@ -28,6 +28,7 @@ class o10rPPSdk {
   }
 }
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
 (window as any).o10rPPSdk = o10rPPSdk;
 
 export { o10rPPSdk };
